@@ -1,0 +1,19 @@
+meta {
+  name: remove
+  type: http
+  seq: 5
+}
+
+delete {
+  url: http://localhost:3000/customers/65c432bb421e2ea2de751229
+  body: none
+  auth: none
+}
+
+body:json {
+  {
+    "name":"Murilo",
+    "email": "murilojava@gmail.com",
+    "cpf": "123.456.789-09" 
+  }
+}

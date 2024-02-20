@@ -1,0 +1,17 @@
+meta {
+  name: update
+  type: http
+  seq: 4
+}
+
+put {
+  url: http://localhost:8080/customers/65d405c4583e3d119f3bfa3a
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name":"Murilo Barbosa da Silva "
+  }
+}
